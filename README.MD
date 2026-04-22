@@ -1,6 +1,6 @@
-# 📄 GenAI RAG Chat Application (Streamlit)
+# GenAI RAG Chat Application (Streamlit)
 
-## 🚀 Overview
+## Overview
 
 This project is a **Streamlit-based GenAI application** that allows users to upload a PDF and ask questions about its content using a **Retrieval-Augmented Generation (RAG)** pipeline.
 
@@ -8,23 +8,23 @@ The system retrieves relevant document chunks and generates **grounded, context-
 
 ---
 
-## 🎯 Features
+## Features
 
-* 📂 Upload PDF documents
-* 🔍 Semantic search using vector embeddings (FAISS)
-* 🤖 LLM-powered question answering
-* 🧠 Context-aware responses (RAG)
-* 💬 Chat interface with session memory
+* Upload PDF documents
+* Semantic search using vector embeddings (FAISS)
+* LLM-powered question answering
+* Context-aware responses (RAG)
+* Chat interface with session memory
 
 ---
 
-## 🧠 Architecture
+## Architecture
 
 User Query → Embeddings → Vector DB (FAISS) → Relevant Chunks → LLM → Response
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Frontend/UI**: Streamlit
 * **LLM Integration**: OpenAI / Enterprise LLM Endpoint
@@ -35,7 +35,7 @@ User Query → Embeddings → Vector DB (FAISS) → Relevant Chunks → LLM → 
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -79,7 +79,7 @@ OPENAI_BASE_URL=your_base_url   # Required for enterprise/Azure setups
 
 ---
 
-## ▶️ Run the Application
+## Run the Application
 
 ```bash
 streamlit run app.py
@@ -87,7 +87,7 @@ streamlit run app.py
 
 ---
 
-## 🧪 How to Use
+## How to Use
 
 1. Upload a PDF file
 2. Enter a question related to the document
@@ -98,7 +98,7 @@ streamlit run app.py
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 * Ensure the PDF contains selectable text (not scanned images)
 * For enterprise setups, configure correct `base_url` and model name
@@ -106,7 +106,7 @@ streamlit run app.py
 
 ---
 
-## 📌 Future Enhancements
+## Future Enhancements
 
 * Multi-document support
 * Source citation UI
@@ -115,7 +115,7 @@ streamlit run app.py
 
 ---
 
-## 👨‍🏫 Session Context
+## Session Context
 
 This project was built as part of a hands-on session on:
 
@@ -123,6 +123,6 @@ This project was built as part of a hands-on session on:
 
 ---
 
-## 📄 License
+## License
 
 For educational purposes only.
